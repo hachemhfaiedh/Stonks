@@ -29,4 +29,4 @@ Please make sure to update tests appropriately.
 * Nour Ouhichi - [Github](https://github.com/nourouhichi/Stonks1.0)
              - [LinkedIn](https://www.linkedin.com/in/nour-ouhichi-6551aa1a1/)
 * Nedhir Ben Hammouda - [Github](https://github.com/nedhir6)
-             - [LinkedIn](Linkedin: https://www.linkedin.com/in/nedhir/)
+             - [LinkedIn](https://www.linkedin.com/in/nedhir/)
