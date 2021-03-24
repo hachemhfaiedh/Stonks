@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a <img src="https://i.ebayimg.com/images/g/6pEAAOSw8gleOa9d/s-l300.png" alt="Stonks" width="200"></a>
+  <img src="https://i.ebayimg.com/images/g/6pEAAOSw8gleOa9d/s-l300.png" alt="Stonks" width="200">
   <br>
   Stonks
   <br>
