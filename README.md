@@ -1,5 +1,12 @@
+<h1 align="center">
+  <br>
+  <a <img src="https://i.ebayimg.com/images/g/6pEAAOSw8gleOa9d/s-l300.png" alt="Stonks" width="200"></a>
+  <br>
+  Stonks
+  <br>
+</h1>
 
-<h4 align="center">Stonks.</h4>
+<h4 align="center">a day trading bot .</h4>
 
 <p align="center">
   <a href="#Stonks">Stonks</a> •
