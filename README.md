@@ -1,7 +1,5 @@
 <h1 align="center">
   <br>
-  <img src="https://image.spreadshirtmedia.net/image-server/v1/mp/designs/168021773,width=178,height=178/stonks.png" alt="Stonks" width="200">
-  <br>
   Stonks
   <br>
 </h1>
