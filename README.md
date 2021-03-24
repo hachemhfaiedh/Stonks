@@ -1,3 +1,16 @@
+
+<h4 align="center">Stonks.</h4>
+
+<p align="center">
+  <a href="#Stonks">Stonks</a> •
+  <a href="#Installation">Installation</a> •
+  <a href="#Usage">Usage</a> •
+  <a href="#Contributing">Contributing</a> •
+  <a href="#License">Related</a> •
+  <a href="#AUTHORS">AUTHORS</a>
+</p>
+
+![screenshot](https://imgur.com/a/oUuhFUf)
 # Stonks
 
 Stonks is a day trading bot. The main points that differenciate our bot from others are that the code is open source meaning that you won't have to give away any credentials, and you could personalize it however you want. Besides, our well-crafted strategy is a guarantee for success. You will get a set of statistics about the strategy performance at any chosen date to prove that.
@@ -30,3 +43,7 @@ Please make sure to update tests appropriately.
              - [LinkedIn](https://www.linkedin.com/in/nour-ouhichi-6551aa1a1/)
 * Nedhir Ben Hammouda - [Github](https://github.com/nedhir6)
              - [LinkedIn](https://www.linkedin.com/in/nedhir/)
+
+
+
+
