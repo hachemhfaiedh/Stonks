@@ -10,7 +10,6 @@ import matplotlib.pyplot as plt
 api_key = "c17o1nf48v6tsmoj9ge0"
 symbol = "AMZN"
 initial_capital = 100000
-indicator = 0
 initial_timestamp = "1565363399"
 end_timestamp = "1568041799"
 url = 'https://finnhub.io/api/v1/indicator?symbol={}&resolution=1&from={}&to={}&nbdevup=2&nbdevdn=2&timeperiod=20&indicator=bbands&token={}'.format(
@@ -70,3 +69,33 @@ return_on_investment = (((-initial_capital + df1['portfolio_total'].iloc[-1]) / 
 """computing strategy performance using the cumulative sum of log-returns"""
 df1['Market_Log_Return'] = np.log(df1['Closing Price'] / df1['Closing Price'].shift())
 df1['Strategy_Return'] = (df1['Market_Log_Return'] * df1['Position'].shift(1))
+
+"""visualize data"""
+
+"""technical indicators"""
+plt.style.use('ggplot')
+ax = df[['Closing Price','upperband','lowerband','SMA 20']].plot(color=["crimson", "darkgray", "darkgray", "dodgerblue"], style=['-','-','-','--'])
+x_axis = df.index.get_level_values(0)
+ax.fill_between(x_axis, df['upperband'], df['lowerband'], color='lightgray')
+plt.xlabel('Time And Date')
+plt.ylabel('Price In USD ($)')
+plt.title('Bollinger Bands')
+plt.show()
+
+"""strategy performance"""
+ax1 = plt.subplot(1, 2, 1)
+plt.plot(df1[['Market_Log_Return']].cumsum().apply(np.exp),label = 'Market Return')
+plt.plot(df1[['Strategy_Return']].cumsum().apply(np.exp),label = 'Strategy Return')
+plt.legend(loc = 4)
+plt.xticks(rotation= 15)
+plt.xlabel('Time And Date',fontsize=14)
+plt.ylabel('Return Rate',fontsize=14)
+plt.title('Merket Return vs Strategy Return')
+plt.subplot(1, 2, 2)
+plt.plot(df1[['portfolio_total']])
+plt.xticks(rotation= 15)
+plt.xlabel('Time And Date',fontsize=14)
+plt.ylabel('Price In USD ($)',fontsize=14)
+plt.title('portfolio total overtime')
+plt.suptitle('Strategy Performance')
+plt.show()
