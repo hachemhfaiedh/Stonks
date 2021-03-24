@@ -10,7 +10,7 @@
   <a href="#AUTHORS">AUTHORS</a>
 </p>
 
-![screenshot](https://imgur.com/a/oUuhFUf)
+![screenshot](https://i.imgur.com/OU0MiFI.png)
 # Stonks
 
 Stonks is a day trading bot. The main points that differenciate our bot from others are that the code is open source meaning that you won't have to give away any credentials, and you could personalize it however you want. Besides, our well-crafted strategy is a guarantee for success. You will get a set of statistics about the strategy performance at any chosen date to prove that.
@@ -23,7 +23,7 @@ Among the key criteria, based on which we decided to choose the best project ide
 To run the bot clone this repository on your local machine.
 
 ## Usage
-Once your in the directory run this command to get started
+Once you're in the directory run this command to get started
 ```
 ./Stonks
 ```
