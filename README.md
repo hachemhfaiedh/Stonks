@@ -18,7 +18,7 @@
 ![screenshot](https://i.imgur.com/OU0MiFI.png)
 # Stonks
 
-Stonks is a Backtest for technical indicators and strategies using only pandas. 
+Stonks is a Backtesting tool for technical indicators and strategies built using only pandas. 
 
  ## The story
 Among the key criteria, based on which we decided to choose the best project idea, is innovation. We did not want to work on something generic and easy. Thus we opted for this idea, since none of us knew the best course of action in creating an automated trading bot. It was a thrilling experience in which we learned a lot, mainly because this is a whole new field. Of course the aquired knowledge from our studies helped us get a good headstart. And most importantly, this was the biggest team-project, so we were afraid of the challenges we were going to face. But we were able to pull through thanks to collective effort and communication.
