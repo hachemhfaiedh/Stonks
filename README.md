@@ -4,7 +4,7 @@
   <br>
 </h1>
 
-<h4 align="center">a day trading bot .</h4>
+<h4 align="center">Strategy Backtest .</h4>
 
 <p align="center">
   <a href="#Stonks">Stonks</a> •
@@ -18,9 +18,9 @@
 ![screenshot](https://i.imgur.com/OU0MiFI.png)
 # Stonks
 
-Stonks is a day trading bot. The main points that differenciate our bot from others are that the code is open source meaning that you won't have to give away any credentials, and you could personalize it however you want. Besides, our well-crafted strategy is a guarantee for success. You will get a set of statistics about the strategy performance at any chosen date to prove that.
+Stonks is a Backtest for technical indicators and strategies using only pandas. 
 
- ## The story 
+ ## The story
 Among the key criteria, based on which we decided to choose the best project idea, is innovation. We did not want to work on something generic and easy. Thus we opted for this idea, since none of us knew the best course of action in creating an automated trading bot. It was a thrilling experience in which we learned a lot, mainly because this is a whole new field. Of course the aquired knowledge from our studies helped us get a good headstart. And most importantly, this was the biggest team-project, so we were afraid of the challenges we were going to face. But we were able to pull through thanks to collective effort and communication.
 
 ## Installation
@@ -48,7 +48,3 @@ Please make sure to update tests appropriately.
              - [LinkedIn](https://www.linkedin.com/in/nour-ouhichi-6551aa1a1/)
 * Nedhir Ben Hammouda - [Github](https://github.com/nedhir6)
              - [LinkedIn](https://www.linkedin.com/in/nedhir/)
-
-
-
-
